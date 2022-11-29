@@ -26,15 +26,15 @@ e_parm1 = {
 l_parm1 = {
     "x_left": 0.0,
     "x_right": 1.0,
-    "x0": 0.5,
-    "x_num": 300,
-    "timeout": 0.12,
+    "x0": 0.3,
+    "x_num": 100,
+    "timeout": 0.2,
     "d_left": 1.0,
-    "d_right": 1.0,
-    "u_left": 0.0,
+    "d_right": 0.125,
+    "u_left": 0.75,
     "u_right": 0.0,
-    "p_left": 1000.0,
-    "p_right": 0.01,
+    "p_left": 1.0,
+    "p_right": 0.1,
 }
 
 
@@ -366,3 +366,4 @@ hllc_solver6.solver()
 hllc_solver6.results()
 
 print("Test 6 : End")
+
