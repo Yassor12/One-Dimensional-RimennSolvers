@@ -319,9 +319,9 @@ hllc_solver5.results()
 
 print("Test 5 : End")
 
-# Test 5
+# Test 6
 
-print("Test 5 : Start")
+print("Test 6 : Start")
 
 hll_solver6 = HLL(CFL=0.9, gamma=1.4, tag="Test6-HLL")
 hllc_solver6 = HLLC(CFL=0.9, gamma=1.4, tag="Test6-HLLC")
